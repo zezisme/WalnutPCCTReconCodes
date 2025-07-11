@@ -1,5 +1,7 @@
 clear all
 close all
+% add present working path
+addpath(genpath(pwd));
 
 recon_para.WalnutMD_Enable = 1;
 recon_para.WalnutVMI_Enable = 1;

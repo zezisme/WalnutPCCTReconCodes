@@ -1,6 +1,8 @@
 clear all
 close all
 reset(gpuDevice());
+% add present working path
+addpath(genpath(pwd));
 % add TIGRE toolbox to the matlab path
 addpath(genpath('~\TIGRE-master\MATLAB')) %adding tigre main path to matlab
 
@@ -21,6 +23,6 @@ recon_para.nVoxel =[1000;1000;300];  % recon voxel size
 recon_para.sVoxel=[50;50;15];   %mm，recon FOV size
 recon_para.is_write2dicom = 1;%1:save to dicom file, 0:save to png pictures
 
-ReconAllEnergy([data_dir_root,'\','Walnut_8'],[save_path,'\','Walnut_8'],recon_para);
+ReconAllEnergy([data_dir_root,'\','Walnut_1'],[save_path,'\','Walnut_1'],recon_para);
 
 
