@@ -5,9 +5,9 @@ reset(gpuDevice());
 addpath(genpath('~\TIGRE-master\MATLAB')) %adding tigre main path to matlab
 
 
-data_dir_root  = '\\169.254.34.50\zhouenze\核桃数据集（202412）\单帧生数据_简单处理\Projections';%Projections path
-save_path = '\\169.254.34.50\zhouenze\核桃数据集（202412）\单帧生数据_简单处理\Reconstructions';%Recon save path
-recon_para.CaliTablePath = '\\169.254.34.50\zhouenze\核桃数据集（202412）\单帧生数据_简单处理\CalibrationTable'; %calibration table path
+data_dir_root  = '.\Projections';%Projections path
+save_path = '.\Reconstructions';%Recon save path
+recon_para.CaliTablePath = '.\CalibrationTable'; %calibration table path
 recon_para.NonUniformityCorr = 1; % 1(default)/0: is using the ring artifact remove in proj images
 recon_para.RingArtifactCorr = 1; % 1(default)/0: is using the ring artifact remove in proj images
 recon_para.recon_type = 2;%1:FDK,2:FDK+TV
