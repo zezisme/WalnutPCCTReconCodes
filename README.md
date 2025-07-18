@@ -1,6 +1,6 @@
 # WalnutPCCTReconCodes
 
-This repository provides MATLAB code for loading, correcting, reconstructing, and performing spectral analysis on projection data from the **Walnut Photon-Counting CT (PCCT) Dataset**, acquired using a custom micro-cone-beam PCCT system. The dataset includes multi-energy raw projections of 15 walnut samples, along with calibration tables and scanning geometry information.
+This repository provides MATLAB code for loading, correcting, reconstructing, and performing spectral analysis on projection data from the **Walnut Photon-Counting CT (PCCT) Dataset**, acquired using a custom micro-cone-beam PCCT system. The dataset includes multi-energy raw projections of 15 walnut samples.
 
 > 📖 This repository accompanies our scientific publication:  
 > **[TO BE UPDATED WITH FULL CITATION ONCE ACCEPTED]**
@@ -20,7 +20,7 @@ Due to the large volume of high-resolution projection data and memory-intensive 
 
 ## 📦 Dependencies
 
-This codebase is based on the [TIGRE Toolbox](https://github.com/CERN/TIGRE), an open-source GPU-accelerated CT reconstruction library supporting FDK and iterative algorithms.
+This codebase relies on the [TIGRE Toolbox](https://github.com/CERN/TIGRE), an open-source GPU-accelerated CT reconstruction library supporting FDK and iterative algorithms.
 
 ### 🔁 Quick Installation
 
@@ -78,7 +78,7 @@ Reconstructed results include:
 
 ## 📎 Citation
 If you use this dataset or code, please cite:
-> **Zhou, E. et al. (2025). A real multi-energy photon-counting CT dataset of walnut samples for spectral reconstruction and deep learning research. Scientific Data. [To be updated with DOI]**
+> **Zhou, E. et al. (2025). A cone-beam photon-counting CT dataset for spectral image reconstruction and deep learning. Scientific Data. [To be updated with DOI]**
 
 ---
 
