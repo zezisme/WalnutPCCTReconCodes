@@ -81,21 +81,21 @@ fprintf(['AirCorrection',':total running time is %.3f s\n'], toc);
 if recon_para.NonUniformityCorr
     tic
     if strcmp(Energy,'Low')
-        fileID = fopen([corr_table_path,'\','HL_corr_table_low_STEPC_poly2.data']);
+        fileID = fopen([corr_table_path,'\','STEPC_table_low.data']);
         HL_corr_table = fread(fileID,'float32');
         fclose(fileID);
         HL_corr_table = reshape(HL_corr_table,nChannelNum,nSliceNum,[]);
         rawdata_proj_error = poly_corr_proj(rawdata_proj_low,rawdata_proj_high,HL_corr_table,2);
         rawdata_proj = rawdata_proj_low - rawdata_proj_error;
     elseif strcmp(Energy,'High')
-        fileID = fopen([corr_table_path,'\','HL_corr_table_high_STEPC_poly2.data']);
+        fileID = fopen([corr_table_path,'\','STEPC_table_high.data']);
         HL_corr_table = fread(fileID,'float32');
         fclose(fileID);
         HL_corr_table = reshape(HL_corr_table,nChannelNum,nSliceNum,[]);
         rawdata_proj_error = poly_corr_proj(rawdata_proj_low,rawdata_proj_high,HL_corr_table,2);
         rawdata_proj = rawdata_proj_high - rawdata_proj_error;
     elseif strcmp(Energy,'Total')
-        fileID = fopen([corr_table_path,'\','HL_corr_table_total_STEPC_poly2.data']);
+        fileID = fopen([corr_table_path,'\','STEPC_table_total.data']);
         HL_corr_table = fread(fileID,'float32');
         fclose(fileID);
         HL_corr_table = reshape(HL_corr_table,nChannelNum,nSliceNum,[]);
