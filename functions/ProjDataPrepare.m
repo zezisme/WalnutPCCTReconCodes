@@ -109,7 +109,7 @@ end
 %% --------- Step4:BadPixelsCorr --------------
 tic
 % read bad pixels index table
-fileID  = fopen([corr_table_path,'\','badchannelIndexAll2.data']);
+fileID  = fopen([corr_table_path,'\','badchannelIndexAll.data']);
 badchannelIndexTable = fread(fileID,'float32');
 fclose(fileID);
 badchannelIndexAll = sort(unique([badPixelIndex;badchannelIndexTable]));
