@@ -83,7 +83,7 @@ If you use this dataset or code, please cite:
 ---
 
 ## 📮 Contact
-For questions or feedback, please open an issue or contact the authors as listed in the accompanying paper.
+For questions or feedback, please open an issue or contact email: zhou.en.ze@qq.com.
 
 ---
 
