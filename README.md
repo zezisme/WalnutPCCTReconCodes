@@ -1,6 +1,6 @@
 # WalnutPCCTReconCodes
 
-This repository provides MATLAB code for loading, correcting, reconstructing, and performing spectral analysis on projection data from the **Walnut Photon-Counting CT (PCCT) Dataset**, acquired using a custom micro-cone-beam PCCT system. The dataset includes multi-energy raw projections of 15 walnut samples.
+This repository provides MATLAB code for loading, correcting, reconstructing, and performing spectral analysis on projection data from the **[Walnut Photon-Counting CT (PCCT) Dataset](https://zenodo.org/records/15738314)**, acquired using a custom micro-cone-beam PCCT system. The dataset includes multi-energy raw projections of 15 walnut samples.
 
 > 📖 This repository accompanies our scientific publication:  
 > **[TO BE UPDATED WITH FULL CITATION ONCE ACCEPTED]**
