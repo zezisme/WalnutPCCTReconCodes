@@ -78,7 +78,7 @@ Reconstructed results include:
 
 ## 📎 Citation
 If you use this dataset or code, please cite:
-> **Zhou, E. et al. (2025). A cone-beam photon-counting CT dataset for spectral image reconstruction and deep learning. Scientific Data. [To be updated with DOI]**
+> **Zhou, E., Li, W., Xu, W. et al. A cone-beam photon-counting CT dataset for spectral image reconstruction and deep learning. Sci Data 12, 1955 (2025). https://doi.org/10.1038/s41597-025-06246-4**
 
 ---
 
