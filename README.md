@@ -6,6 +6,53 @@ This repository provides MATLAB code for loading, correcting, reconstructing, an
 > **Zhou, E., Li, W., Xu, W. et al. A cone-beam photon-counting CT dataset for spectral image reconstruction and deep learning. Sci Data 12, 1955 (2025). https://doi.org/10.1038/s41597-025-06246-4**
 
 ---
+## 📸 Data Examples
+
+### 1. Visualizing Projection Data (ImageJ)
+
+Raw projection files (`.raw`) can be opened using ImageJ:
+
+- File → Import → Raw
+- Width: 2063  
+- Height: 505  
+- Data type: 16-bit unsigned  
+- Byte order: Little-endian  
+
+This allows direct inspection of photon-counting projections.
+
+<p align="center">
+  <img src="pictures/ShowProj-ImageJ1.png" width="45%" />
+  <img src="pictures/ShowProj-ImageJ2.png" width="45%" />
+</p>
+---
+
+### 2. Reconstruction and Spectral Imaging Examples
+
+Below are example results demonstrating the reconstruction workflow and spectral outputs.
+
+#### 🔹 Reconstruction Workflow and Results
+
+<p align="center">
+  <img src="pictures/figure 4.jpg" width="45%" />
+  <img src="pictures/figure 6.jpg" width="45%" />
+</p>
+
+- **Left:** Reconstruction pipeline overview  
+- **Right:** Example reconstructed CT images  
+
+---
+
+#### 🔹 Material Decomposition and Virtual Monoenergetic Imaging
+
+<p align="center">
+  <img src="pictures/figure 8.jpg" width="45%" />
+  <img src="pictures/figure 9.jpg" width="45%" />
+</p>
+
+- **Left:** Material decomposition results (shell and pulp)  
+- **Right:** Virtual monoenergetic images at different energies  
+
+---
 
 ## 🔧 System Requirements
 
