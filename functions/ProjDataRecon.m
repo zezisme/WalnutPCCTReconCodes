@@ -41,7 +41,7 @@ geo.rotDetector=[InpRot;0;0];
 angles = AcqPara.objViewAngle(1:dose_ratio:end)'; %(1,angle_num)
 % permute angles to TIGRE convention (init angle: pi to 0)
 angles = angles - pi;
-
+angles = unwrap(angles);
 %% -----------Reconstruct image using TIGRE Platfrom------------
 tid = tic;
 switch RecPara.recon_type
